@@ -1,0 +1,6 @@
+name: 'Block Commenter'
+description: 'Module to Block a Particular User From Commenting.'
+core: 8.x
+dependencies:
+  - comment
+type: module

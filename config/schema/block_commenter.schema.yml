@@ -1,0 +1,6 @@
+block_commenter.settings:
+  type: mapping
+  label: Settings
+  mapping:
+    block_commenter_comment_exist:
+      type: integer

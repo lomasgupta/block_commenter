@@ -1,0 +1,14 @@
+block_commenter.admin_settings:
+  path: /admin/config/people/block_commenter
+  defaults:
+    _title: 'Block Commenter Settings'
+    _form: \Drupal\block_commenter\Form\BlockCommenterAdminSettings
+  requirements:
+    _permission: 'administer block commenter'
+block_commenter.multiple_select_autocomplete:
+  path: /block_commenter/multiple_autocomplete
+  defaults:
+    _title: 'Multiple select auto complete'
+    _controller: '\Drupal\block_commenter\Controller\DefaultController::block_commenter_multiple_select_autocomplete'
+  requirements:
+    _permission: 'administer block commenter'

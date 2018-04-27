@@ -1,0 +1,5 @@
+block_commenter.admin_settings:
+  route_name: block_commenter.admin_settings
+  title: 'Block Commenter Settings'
+  description: 'This will allow user to administer block commenter module settings'
+  parent: user.admin_index
